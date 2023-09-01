@@ -40,7 +40,6 @@ const useRecipes = () => {
 
   const createRecipeDataObj = async (recipeEntries: any) => {
     let allRecipeObjData: any = {};
-    // if (recipes) {
       allRecipeObjData = recipeEntries.items.map((item: any) => {
         const chefId = item.fields.chef?.sys.id;
         const chef = recipeEntries.includes.Entry.find(
@@ -66,13 +65,11 @@ const useRecipes = () => {
           chefName,
         };
       });
-    // }
     setRecipesObj(allRecipeObjData);
   }
 
 
   return {
-    // recipes,
     recipesObj,
   };
 };
