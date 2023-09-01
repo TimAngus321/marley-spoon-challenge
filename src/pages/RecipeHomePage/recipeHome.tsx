@@ -2,7 +2,7 @@
 
 const RecipeHome = () => {
   return (
-    <div>recipeHome</div>
+    <div>recipeHome Page</div>
   )
 }
 

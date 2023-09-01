@@ -2,7 +2,7 @@
 
 const RecipeDesc = () => {
     return (
-      <div>recipeHome</div>
+      <div>recipeHome Page</div>
     )
   }
   
