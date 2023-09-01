@@ -3,9 +3,13 @@ import styles from "./style/recipeHomePage.module.scss";
 import useRecipes from "./hooks/useRecipes";
 
 const RecipeHome = () => {
-  const {recipes} = useRecipes();
+  const {
+    // recipes, 
+    recipesObj} = useRecipes();
 
-  console.log(recipes);
+  console.log(recipesObj);
+  
+
   return (
     <main className={styles?.recipeHomeContainer}>
       <header>

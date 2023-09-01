@@ -10,7 +10,7 @@ export default function RecipeListGrid() {
   return (
     <ImageList sx={{ width: "75%", height: "100vh" }}>
       <ImageListItem key="Subheader" cols={2}>
-        <ListSubheader component="div">December</ListSubheader>
+        <ListSubheader component="div">Marley Spoon Current Recipes</ListSubheader>
       </ImageListItem>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
