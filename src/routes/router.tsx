@@ -6,7 +6,7 @@ const PageRoutes = () => {
   return (
     <Routes>
       <Route index element={<RecipeHome />} />
-      <Route index element={<RecipeDesc />} />
+      <Route path="/recipeDesc" element={<RecipeDesc />} />
     </Routes>
   );
 };
