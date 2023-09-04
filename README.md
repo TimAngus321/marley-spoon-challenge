@@ -41,12 +41,12 @@ yarn start
 - Used a Material UI to quickly create my components rather than building myself
 - Use package react-markdown to quickly render markdown
 - Desided against implementing rating as I didn't set up a backend or db to do it properly.
-- Responsvieness handled with material UI and some TS that switches coulmns to 1 when under
+- Responsvieness handled with material UI and some TS that switches coulmns to 1 when under window.innerWidth is under 900px wide
 
 ## What could be improved if I had time
 
 - Take more time to come up with a better design
 - Investigte how to properly use and implement Material UI 
 - Add tests with Jest & React Testing Library
-- Use Next and use SSR Component for the recipe list as it doesn't need to be re-rendered as it's a fixed list (I'm currently learning Next but in order to implement this quickly I went with CRA with typescript. Next time I'd use Vite instead though as I've been enjoying using it)
-- Use proper types when I occasionally use any for speed of development
+- Use Next and use SSR Component for the recipe list as it doesn't need to be re-rendered as it's a fixed list (I'm currently learning Next but in order to implement this quickly I went with CRA with typescript. If I was to setup a react app without Next I'd use Vite as I've been enjoying using it.
+- Use proper types throughout app. I've occasionally use type any to develop quickly.
