@@ -22,7 +22,7 @@ yarn install
 
 ```plainText
 
-REACT_APP_SPACE_ID = [SPACE ID ]
+REACT_APP_SPACE_ID = [SPACE ID]
 REACT_APP_ENV_ID = [master]
 REACT_APP_ACCESS_TOKEN = [ACCESS TOKEN]
 ```
