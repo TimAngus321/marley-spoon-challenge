@@ -36,7 +36,7 @@ export default function RecipeReviewCard() {
       />
       <CardMedia
         component="img"
-        height="194"
+        height="400"
         image={`https:${clickedRecipeData?.imageUrl}`}
         alt={clickedRecipeData?.title}
       />
