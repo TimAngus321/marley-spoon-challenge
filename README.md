@@ -8,10 +8,23 @@
 git clone https://github.com/TimAngus321/marley-spoon-challenge.git
 ```
 
+```bash
+cd marley-spoon-challenge/
+```
+
 ### Install the packages
 
 ```bash
 yarn install 
+```
+
+### Please add the .env variables to a .env file in the root of the project like so: 
+
+```plainText
+
+REACT_APP_SPACE_ID = [SPACE ID ]
+REACT_APP_ENV_ID = [master]
+REACT_APP_ACCESS_TOKEN = [ACCESS TOKEN]
 ```
 
 ### Run locally on http://localhost:3000/
@@ -19,6 +32,8 @@ yarn install
 ```bash
 yarn start 
 ```
+
+### Ensure the port is set to 3000 then open on http://localhost:3000/
 
 ## Shortcuts
 
@@ -31,7 +46,7 @@ yarn start
 ## What could be improved if I had time
 
 - Take more time to come up with a better design
-- Investigte how to properly use and implement a component library (first time using material UI)
-- Add tests
+- Investigte how to properly use and implement Material UI 
+- Add tests with Jest & React Testing Library
 - Use Next and use SSR Component for the recipe list as it doesn't need to be re-rendered as it's a fixed list (I'm currently learning Next but in order to implement this quickly I went with CRA with typescript. Next time I'd use Vite instead though as I've been enjoying using it)
 - Use proper types when I occasionally use any for speed of development
