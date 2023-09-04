@@ -2,26 +2,22 @@
 
 ## How to run locally
 
-- Clone the repository
+### Clone the repository
 
 ```bash
-{
 git clone https://github.com/TimAngus321/marley-spoon-challenge.git
-}
 ```
 
-- Install the packages
+### Install the packages
 
 ```bash
-{
 yarn install 
-}
 ```
-- Run locally on http://localhost:3000/
+
+### Run locally on http://localhost:3000/
+
 ```bash
-{
 yarn start 
-}
 ```
 
 ## Shortcuts
