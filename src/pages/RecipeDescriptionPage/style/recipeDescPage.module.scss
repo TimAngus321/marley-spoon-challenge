@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
 
@@ -14,4 +14,8 @@
 .backArrowBtn {
     align-self: flex-start;
     padding: 20px;
+
+    svg {
+    cursor: pointer;
+    }
 }
