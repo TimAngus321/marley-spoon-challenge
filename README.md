@@ -1,5 +1,7 @@
 # Marley Spoon Frontend Challenge
 
+## I've deployed on Netlify and you can see it [here]([https://link-url-here.org](https://marley-spoon-challenge.netlify.app/))
+
 ## How to run locally
 
 ### Clone the repository
