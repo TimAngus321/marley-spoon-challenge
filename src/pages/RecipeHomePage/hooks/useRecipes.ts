@@ -3,7 +3,6 @@ import { recipeInfoObj } from "../types/recipesTypes";
 import axios from "axios";
 
 const useRecipes = () => {
-  //   const [recipes, setRecipes] = useState<any>();
   const [recipesObj, setRecipesObj] = useState<recipeInfoObj[]>([]);
 
   const spaceId = process.env.REACT_APP_SPACE_ID;
@@ -22,7 +21,7 @@ const useRecipes = () => {
     }
   };
 
-  //  Make sure home page has all recepies from api call
+  //  Make sure home page has all recepies from api call / SSR component with next would be better
   useEffect(() => {
     const getRecipes = async () => {
       try {

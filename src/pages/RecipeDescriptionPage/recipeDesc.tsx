@@ -7,8 +7,6 @@ import useRecipeDetails from "./hooks/useRecipeDetails";
 const RecipeDesc = () => {
   const { navigate } = useRecipeList();
   const {clickedRecipeData} = useRecipeDetails();
-
-  console.log(clickedRecipeData);
   
   return (
     <main className={styles?.recipeDescContainer}>
@@ -16,7 +14,7 @@ const RecipeDesc = () => {
       <ArrowBackIcon sx={{ fontSize: "4em" }} onClick={() => navigate("/")} />
       </div>
       <header>
-        <h1>Insert Recipe Title Here</h1>
+        <h1>{clickedRecipeData?.title}</h1>
       </header>
       <RecipeReviewCard />
     </main>

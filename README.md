@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# Marley Spoon Frontend Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to run locally
 
-## Available Scripts
+- Clone the repository
 
-In the project directory, you can run:
+```bash
+{
+git clone https://github.com/TimAngus321/marley-spoon-challenge.git
+}
+```
 
-### `npm start`
+- Install the packages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+{
+yarn install 
+}
+```
+- Run locally on http://localhost:3000/
+```bash
+{
+yarn start 
+}
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Shortcuts
 
-### `npm test`
+- Only looked into contentful API docs briefly to find the api call I needed and tested it out quickly using Thunder Client. Perhaps the SDK would have been a quicker way to implement what I needed.
+- Used a Material UI to quickly create my components rather than building myself
+- Use package react-markdown to quickly render markdown
+- Desided against implementing rating as I didn't set up a backend or db to do it properly.
+- Responsvieness handled with material UI and some TS that switches coulmns to 1 when under
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What could be improved if I had time
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Take more time to come up with a better design
+- Investigte how to properly use and implement a component library (first time using material UI)
+- Add tests
+- Use Next and use SSR Component for the recipe list as it doesn't need to be re-rendered as it's a fixed list (I'm currently learning Next but in order to implement this quickly I went with CRA with typescript. Next time I'd use Vite instead though as I've been enjoying using it)
+- Use proper types when I occasionally use any for speed of development

@@ -5,6 +5,7 @@ import IconButton from "@mui/material/IconButton";
 import InfoIcon from "@mui/icons-material/Info";
 import useRecipeList from "../hooks/useRecipeList";
 import useRecipes from "../hooks/useRecipes";
+import styles from "../style/recipeGridStyle.module.scss";
 
 const RecipeListGrid = () => {
   const { recipesObj } = useRecipes();
@@ -15,6 +16,7 @@ const RecipeListGrid = () => {
       {recipesObj &&
         Object.values(recipesObj).map((recipe, i) => (
           <ImageListItem
+            className={styles?.recipeLi}
             key={i}
             cols={responsiveColumns()}
             onClick={() => {navWithState({

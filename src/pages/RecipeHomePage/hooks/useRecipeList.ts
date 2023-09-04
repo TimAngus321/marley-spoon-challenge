@@ -10,7 +10,7 @@ const navWithState = (recipeObj: recipeInfoObj) => {
 }
 
 const responsiveColumns = () => {
-    if (window.innerWidth > 600) {
+    if (window.innerWidth > 900) {
       return 1;
     } else {
       return 2;
